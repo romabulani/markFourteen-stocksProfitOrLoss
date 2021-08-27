@@ -3,14 +3,16 @@
 body{
     font-family: 'Salsa', cursive;
     display: block;
+    width: 100%;
     
 }
 h1{
-    text-align: center;
+    /* text-align: center; */
 }
 label{
-    margin-left: 40%;
+    /* margin-left: 40%; */
     margin-top: 3rem;
+    display: block;
 }
 input {
     display: block;
@@ -19,16 +21,20 @@ input {
     width: 15rem;
     height: 1.5rem;
     border: 1px solid black;
-    margin-left: 40%;
+    /* margin-left: 40%; */
   }
-
+  #container{
+    width : 80%;
+    margin: 0% auto;
+  }
   button{
       height: 2rem;
       border: 1px solid black;
       font-family: 'Salsa', cursive;
       font-weight: bold;
       width: 5rem;
-      margin-left: 47%;
+      display: block;
+      /* margin-left: 47%; */
       margin-top: 1.5rem;
   }
 
