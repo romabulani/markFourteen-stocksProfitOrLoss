@@ -7,7 +7,7 @@ body{
     
 }
 h1{
-    /* text-align: center; */
+    text-align: center;
 }
 label{
     /* margin-left: 40%; */
@@ -40,5 +40,5 @@ input {
 
   #output{
       margin-top: 2rem;
-      text-align: center;
+      font-size: large;
   }
